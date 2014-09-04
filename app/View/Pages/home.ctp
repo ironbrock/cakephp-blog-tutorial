@@ -122,6 +122,9 @@ if (isset($filePresent)):
 <p>
     <?php
      //   phpinfo();
+      //  require_once 'System.php';
+        //echo 'Did i do the pear thing correctly?' . var_dump(class_exists('System', false));
+
      ?>
 </p>
 <?php endif; ?>
@@ -194,7 +197,7 @@ You can also add some CSS styles for your pages at: %s.',
 		<?php echo __d('cake_dev', 'contains various localized validation classes and translations for specific countries'); ?>
 	</li>
 </ul>
-</p>
+
 
 <h3><?php echo __d('cake_dev', 'More about CakePHP'); ?></h3>
 <p>
