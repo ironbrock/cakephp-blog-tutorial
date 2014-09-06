@@ -11,6 +11,7 @@
         <th>Title</th>
         <th>Delete</th>
         <th>Edit</th>
+        <th>Modified</th>
         <th>Created</th>
     </tr>
 
@@ -40,6 +41,7 @@
             );
             ?>
         </td>
+        <td><?php echo $post['Post']['modified']; ?></td>
         <td><?php echo $post['Post']['created']; ?></td>
     </tr>
 <?php endforeach; ?>
